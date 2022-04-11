@@ -45,8 +45,12 @@ class _MyHomePageState extends State<MyHomePage> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             const IconBoat(),
-            Text('Here are some inline icons',style: Theme.of(context).textTheme.bodyText1 ),
-            SvgPicture.string('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="272" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="272" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="400" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="272" rx="8" ry="8"></rect></svg>', width: 50,)
+            Text('Here are some inline icons',
+                style: Theme.of(context).textTheme.bodyText1),
+            SvgPicture.string(
+              '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" width="100%" height="100%"><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="16" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="144" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="80" y="272" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="272" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="208" y="400" rx="8" ry="8"></rect><rect xmlns="http://www.w3.org/2000/svg" width="96" height="96" x="336" y="272" rx="8" ry="8"></rect></svg>',
+              width: 50,
+            )
           ],
         ),
       ),
